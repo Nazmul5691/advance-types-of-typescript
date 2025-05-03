@@ -1,5 +1,6 @@
 {
 
+    // constraints
 
     const addCourseToStudent = <T extends {id: number, name: string, email: string}>(student: T) => {
         const course = 'Next Level'
