@@ -35,7 +35,26 @@
         contactNo : 983789
     }
 
-    person1.name = 'akash'
+    // person1.name = 'akash'
+
+
+    // record
+    // type MyObj = {
+    //     a: string;
+    //     b: string
+    // }
+
+    type MyObj =  Record<string, string>
+
+    const obj1 : MyObj = {
+        a : 'name',
+        b: 'age',
+        c: 'email',
+        d: 'contact'
+    }
+
+    // const emptyObj : object = {}
+    const emptyObj : Record<string, unknown> = {}
 
 
 
